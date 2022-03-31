@@ -335,7 +335,7 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls>--C99</MiscControls>
-              <Define>STM32F030x8,USE_HAL_DRIVER,USE_STM320308_DISCO</Define>
+              <Define>STM32F030x8,USE_HAL_DRIVER,USE_STM320308_DISCO,PLATFORM_STM32</Define>
               <Undefine></Undefine>
               <IncludePath>..\system\Inc;..\..\Drivers\CMSIS\Device\ST\STM32F0xx\Include;..\..\Drivers\STM32F0xx_HAL_Driver\Inc;..\..\Drivers\BSP\STM32F0308-Discovery;..\..\Drivers\BSP\Components\Common;..\..\Utilities\Log;..\..\Utilities\CPU;..\lib\eve\include;..\;..\main\;..\example\</IncludePath>
             </VariousControls>
@@ -444,7 +444,7 @@
             <File>
               <FileName>EVE_MCU_STM32.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\lib\eve\eve_arch_stm32\EVE_MCU_STM32.c</FilePath>
+              <FilePath>..\lib\eve\ports\eve_arch_stm32\EVE_MCU_STM32.c</FilePath>
             </File>
             <File>
               <FileName>eve_example.h</FileName>
